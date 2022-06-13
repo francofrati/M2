@@ -22,7 +22,7 @@
         document.querySelector('.selected').classList.remove('selected');
         this.classList.add('selected');
     });
-
+//no es nada
   });
 
   var canvas = document.getElementById('paint');
