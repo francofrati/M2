@@ -5,6 +5,8 @@ import Cards from './components/Cards.jsx';
 import SearchBar from './components/SearchBar.jsx';
 import data, { Cairns } from './data.js';
 
+
+
 function App() {
   return (
     <div className="App">
@@ -26,7 +28,7 @@ function App() {
       <hr />
       <div>
         <SearchBar
-          onSearch={(ciudad) => alert(ciudad)}
+        onSearch={()=>{alert(document.querySelector("input").value)}}
         />
       </div>
     </div>
@@ -34,3 +36,6 @@ function App() {
 }
 
 export default App;
+
+
+
