@@ -6,8 +6,9 @@ export default function Cards({cities}) {
   // tip, podés usar un map
   return <div>
     {cities.map((city)=>{
-      console.log(city)
+      // console.log(city)
       return <Card
+          key={city.id}
           max={city.main.temp_max}
           min={city.main.temp_min}
           name={city.name}

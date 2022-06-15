@@ -1,0 +1,89 @@
+.cardContainer{
+    width: 18%;
+    border-radius: 5%;
+    margin: auto;
+    
+}
+.botonNombre{
+    display: flex;
+    flex-direction: column;
+    background-color: #379DDC;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.botonNombre button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto ;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: none;
+    border-radius: 15%;
+    background-color: #F9432E;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    font-weight:600;
+}
+.botonNombre button:hover{
+    background-color: #F01D04;
+    color: white;
+}
+.botonNombre div span{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: Helvetica;
+}
+
+.maxMinImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+}
+.minMaxDiv{
+    border-bottom-left-radius: 8px;
+    /* border-left:#1C7CB7 1px solid;
+    border-bottom: #1C7CB7 1px solid; */
+    display: block;
+    width: 50%;
+
+    
+}
+.imgDiv{
+    width: 50%;
+}
+.minMaxDiv span{
+    display: block;
+    
+}
+.minMaxDiv, .imgDiv{
+    width: 100%;
+    height: auto;
+
+}
+.maxMinImg .imgDiv{
+    background-color: #1C7CB7;
+    border-bottom-right-radius: 8px;
+}
+
+.maxMinText{
+    text-align: justify;
+    padding-left: 10%;
+    font-weight: 900;
+    color:white
+}
+
+.max{
+    background-color: #F9432E;
+    height: 50%;
+}
+.min{
+    background-color: #F9902E;
+    border-bottom-left-radius: 8px;
+    height: 50%;
+}
