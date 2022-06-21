@@ -19,7 +19,7 @@ function App() {
         />
       </div>
       <hr />
-      <div className="Appo">
+      <div className="Appoo">
         <Cards
           cities={data}
         />

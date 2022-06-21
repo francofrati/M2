@@ -1,0 +1,12 @@
+/* .cardsContainer{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-top: 3rem;
+
+} */
+body{
+    background-image: url('./components/fondo.png');
+    background-attachment: fixed;
+}

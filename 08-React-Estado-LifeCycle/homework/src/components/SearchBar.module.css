@@ -1,0 +1,33 @@
+.form{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 4;
+    opacity: .9;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    
+}
+.Tx{
+    grid-column: 1/4;
+    border-bottom-left-radius: 9999px;
+    border-top-left-radius: 9999px;
+    text-align: center;
+    
+    border: 3px solid rgb(34, 150, 143);
+    background-color: #69E4DC;
+}
+.Tx:focus{
+    outline: none;
+}
+.btn{
+    grid-column: 4;
+    background-color: rgb(34, 150, 143);
+    outline: none;
+    border: 3px solid rgb(34, 150, 143);
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    background-color: #69E4DC;
+}

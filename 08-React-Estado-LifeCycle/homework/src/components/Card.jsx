@@ -1,28 +1,17 @@
 import React from 'react';
-import './Card.css';
+import s from './Card.module.css'
 
-export default function Card ({min, max, name, img, onClose, id}) {
-    return (
-      <div className="card">
-        <div id="closeIcon" className="row">
-            <button onClick={onClose} className="btn btn-sm btn-danger">X</button>
-        </div>
-        <div className="card-body">
-          <h5 className="card-title">{name}</h5>
-          <div className="row">
-            <div className="col-sm-4 col-md-4 col-lg-4">
-              <p>Min</p>
-              <p>{min}°</p>
-            </div>
-            <div className="col-sm-4 col-md-4 col-lg-4">
-              <p>Max</p>
-              <p>{max}°</p>
-            </div>
-            <div className="col-sm-4 col-md-4 col-lg-4">
-              <img className="iconoClima" src={"http://openweathermap.org/img/wn/"+img+"@2x.png"} width="80" height="80" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    );
+export default function Card({name,max,min,img,onClose}) {
+  // acá va tu código
+  return <div className={s.main}>
+    <div className={s.imgDiv}>
+        <img src={`http://openweathermap.org/img/wn/${img}@2x.png`} alt="" />
+    </div>
+    <div className={s.infoDiv}>  
+        <div className={s.botonBox}><button className={s.boton} onClick={onClose}></button></div>
+        <div className={s.nameDiv}>{name.toUpperCase()}</div>          
+        <div className={s.maxMin1}><label className={s.maxTx}>Maxíma:</label><label className={s.maxT}>{max + '°F'}</label></div>
+        <div className={s.maxMin2}><label className={s.minTx}>Miníma:</label><label className={s.minT}>{min + '°F'}</label></div>   
+    </div>
+  </div>
 };

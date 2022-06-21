@@ -1,16 +1,7 @@
-body{
-    /* border: 1px solid black; */
-    padding-bottom: 50px;
-    
+h1{
+    font-family: 'Courier New', Courier, monospace;
 }
-/* .Appo{
+.Appo{
+    display: flex;
     justify-content: center;
-    align-items:center ;
-} */
-/* span{
-    border: 1px solid black;
-} */
-img{
-    width: 100%;
-    height: auto;
 }

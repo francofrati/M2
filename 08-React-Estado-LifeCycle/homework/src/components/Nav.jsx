@@ -1,11 +1,17 @@
 import React from 'react';
-import Logo from '../logoHenry.png'
+// import Logo from '../logoHenry.png'
 import SearchBar from './SearchBar.jsx';
-import './Nav.css';
+import s from './Nav.module.css';
 
 function Nav({onSearch}) {
   return (
-    <div>Nav</div>
+    <div className={s.main}>
+      
+        <SearchBar 
+          onSearch={onSearch}
+        />
+      
+    </div>
   );
 };
 

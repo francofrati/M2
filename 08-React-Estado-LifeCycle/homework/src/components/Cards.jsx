@@ -1,13 +1,17 @@
 import React from 'react';
-import './Cards.css';
 
+import d from './Cards.module.css';
 import Card from './Card.jsx';
+
+
+  
 
 export default function Cards({cities, onClose}) {
   if(cities){
     return (
-      <div className='cards'>
+      <div className={d.cardsContainer}>
         {cities.map(c => <Card
+            key={c.id}
             max={c.max}
             min={c.min}
             name={c.name}

@@ -8,6 +8,9 @@
     background-color: #69E4DC;
     height: 15rem;
     opacity: .9;
+    text-align: center;
+    border-bottom-left-radius: 9999px;
+    border-top-left-radius: 9999px;
 }
 .main:hover .boton{
     visibility: visible;
