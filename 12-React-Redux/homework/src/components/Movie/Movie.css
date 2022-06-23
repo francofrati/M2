@@ -59,4 +59,17 @@
   flex-direction: row;
 }
 
+/*A PARTIR DE ACA SON CLASES CREADAS POR MI*/
 
+.contenedor{
+  border: 3px solid black;
+  border-radius:5px;
+  margin: .5rem;
+  background-color: #D4C3CA;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  color: black;
+  width: 10%;
+  padding: 1rem;
+}
