@@ -30,7 +30,7 @@ export class Buscador extends Component {
 
   render() {
     const { title } = this.state;
-    console.log(this.props)
+    
     // if(this.props.movie.length)
     return (
       <div>
@@ -84,6 +84,8 @@ export class Buscador extends Component {
     //     </ul>
     //   </div>
     // );
+
+    
   }
 
   
